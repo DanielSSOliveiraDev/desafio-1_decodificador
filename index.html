@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-Ua-Compatible" content="IF-edge">
+        <title>Decodificador</title> 
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <img class="logo_alura" src="./assets/Logo.svg" alt="logo alura">
+            <img src="./assets/github.png" alt="GitHub">
+            <img src="./assets/instagram.png" alt="Instagram">
+            <img src="./assets/linkedin.png" alt="linkedin">
+        </header>
+        <main>
+            <div class="main">
+                <section class="lado__esquerdo">
+                    <div class="caixa__texto_lado_esquerdo">
+                        <textarea id="caixaTexto" class="caixa__texto" placeholder="Digite seu texto"></textarea>
+                    </div>    
+                    <div class="lado__esquerdo__inferior">
+                        <img src="./assets/Frame 1.svg" alt="aviso">
+                        <div class="lado__esquerdo__botoes">
+                            <button id="botaoCriptografar" class="botao__criptografar">
+                            Criptografar
+                            </button>
+                            <button id="botaoDescriptografar" class="botao__descriptografar">
+                            Descriptografar
+                            </button>
+                        </div>
+                    </div>  
+                </section>
+                <div id="ladoDireito" class="lado__direito traduzindo">
+                <img id="boneco" class="lado__direito__boneco " src="./assets/High quality products 1 1.svg" alt="">
+                    <div class="">
+                        <h3 id="ladoDireitoTraducao" class="lado__direito__traducao" placeholder="">Nenhuma mensagem encontrada
+                        </h3>
+                    <p id="ladoDireitoAviso" class="lado__direito__aviso">Escreva a mensagem que deseja criptografar ou descriptografar</p>
+                    </div>   
+                    <div class="lado__direito__botao__copiar">
+                        <button id="botaoCopiar" class="botao__copiar oculto">Copiar</button>
+                    </div>
+                </div>
+            </div>    
+        </main>
+        <script src="./javascript/script.js"></script>
+    </body>
+</html>
